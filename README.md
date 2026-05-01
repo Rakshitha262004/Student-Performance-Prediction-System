@@ -75,22 +75,34 @@ Train model
 python main.py
 Run web app
 streamlit run app.py
-💻 Web App
+---
+### 💻 Web App
 
 Interactive UI to input student data and get instant predictions.
+![Dasboard image](outputs/d1.png)
+![Dasboard image](outputs/d2.png)
+![Dasboard image](outputs/d3.png)
 
-📈 Model Performance
+
+### 📈 Model Performance
 Accuracy: ~65–70%
 Balanced using class weights
 Evaluated using classification metrics
-📂 Project Structure
+![confusion_matrix image](outputs/confusion_matrix.png)
+
+![feature_importance image](outputs/feature_importance.png)
+
+---
+### 📂 Project Structure
 src/
  ├── generate_data.py
  ├── preprocess.py
  ├── features.py
  ├── train.py
  └── predict.py
-🎯 Highlights
+---
+
+### 🎯 Highlights
 End-to-end ML pipeline
 Real-world feature engineering
 Clean modular code
